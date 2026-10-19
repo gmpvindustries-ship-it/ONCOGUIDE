@@ -1,0 +1,360 @@
+FINAL CANCER-SPECIFIC QUESTIONNAIRE — PILOT V1
+1. THYROID CANCER
+1. Thyroid history
+1. Have you ever been diagnosed with a thyroid nodule, goitre, thyroid enlargement, thyroiditis, hypothyroidism, hyperthyroidism, or another thyroid abnormality?
+•	No. 
+•	Yes. 
+•	Unsure. 
+If yes:
+1a. What thyroid abnormality were you diagnosed with?
+Select all that apply.
+•	Thyroid nodule. 
+•	Goitre / thyroid enlargement. 
+•	Hypothyroidism. 
+•	Hyperthyroidism. 
+•	Thyroiditis. 
+•	Other thyroid abnormality. 
+•	Unsure. 
+2. Radiation exposure
+2. Have you ever received therapeutic radiation involving the head, neck, or upper chest?
+•	No. 
+•	Yes. 
+•	Unsure. 
+If yes:
+2a. Did the exposure occur during childhood or adolescence?*
+•	No. 
+•	Yes. 
+•	Unsure. 
+3. Have you ever experienced substantial exposure to radioactive fallout or a major radiation event?
+•	No. 
+•	Yes. 
+•	Unsure. 
+Childhood head/neck radiation and radioactive fallout are established thyroid-cancer risk contexts. 
+3. Hereditary thyroid cancer
+The general hereditary/genetic module is already completed.
+4. Has a healthcare professional ever specifically told you that you or a family member has MEN2, familial medullary thyroid cancer, or a pathogenic RET variant?*
+•	No. 
+•	Yes. 
+•	Unsure. 
+•	Genetic testing not performed. 
+This is retained because RET/MEN2 has a particularly direct relationship with medullary thyroid cancer. 
+4. Current thyroid/neck findings
+5. Have you noticed a new or enlarging lump or swelling in your neck?
+•	No. 
+•	Yes. 
+•	Unsure. 
+6. Have you experienced persistent difficulty swallowing, difficulty breathing, or a feeling of pressure in the neck?
+•	No. 
+•	Yes. 
+•	Unsure. 
+7. Have you experienced persistent hoarseness or an unexplained change in your voice?
+•	No. 
+•	Yes. 
+•	Unsure. 
+These are appropriate red-flag variables rather than diagnostic variables. 
+________________________________________
+2. ORAL CAVITY CANCER
+The general tobacco/nicotine, alcohol, HPV, previous cancer, precancerous-lesion, family-history & occupational modules are consumed automatically.
+1. Betel quid / areca exposure
+This is the one major India-specific exposure that must remain linked to the oral pathway. Betel quid/areca exposure is an established oral/oropharyngeal cancer risk factor. 
+1. Have you ever regularly used betel quid, paan, areca nut, or supari?
+•	No. 
+•	Yes — currently. 
+•	Yes — previously. 
+•	Unsure. 
+If yes:
+1a. Which products have you used?
+Select all that apply.
+•	Paan / betel quid with tobacco. 
+•	Paan / betel quid without tobacco. 
+•	Areca nut / supari. 
+•	Gutka. 
+•	Other smokeless tobacco product. 
+•	Other areca-containing product. 
+•	Other. 
+•	Unsure. 
+1b. Approximately how long did you use these products?
+•	Less than 1 year. 
+•	1–5 years. 
+•	6–10 years. 
+•	11–20 years. 
+•	More than 20 years. 
+•	Cannot estimate. 
+1c. How frequently did/do you use them?
+•	Less than once per week. 
+•	1–2 days per week. 
+•	3–6 days per week. 
+•	Daily. 
+•	Cannot estimate. 
+2. Oral red flags
+2. Have you had a sore, ulcer, or wound in the mouth that has not healed normally or has persisted?
+•	No. 
+•	Yes. 
+•	Unsure. 
+3. Have you noticed a persistent white, red, or mixed red-and-white patch anywhere in the mouth?
+•	No. 
+•	Yes. 
+•	Unsure. 
+4. Have you noticed a persistent lump, thickening, swelling, or abnormal growth involving the lip, tongue, gums, cheek, or other part of the mouth?
+•	No. 
+•	Yes. 
+•	Unsure. 
+5. Have you experienced unexplained bleeding, persistent pain, numbness, or altered sensation in the mouth?
+•	No. 
+•	Yes. 
+•	Unsure. 
+6. Have you developed persistent difficulty chewing, swallowing, or moving your tongue or jaw?
+•	No. 
+•	Yes. 
+•	Unsure. 
+These should trigger clinical evaluation rather than automatically producing a diagnosis. NCI identifies persistent oral lesions, patches, bleeding, pain and swallowing problems among relevant warning features. 
+________________________________________
+3. HEAD & NECK CANCER
+Do not repeat tobacco, alcohol, betel quid, HPV, previous head & neck cancer or occupational exposure.
+The head & neck engine should consume those normalized variables.
+1. Persistent head & neck symptoms
+1. Have you had a persistent sore throat or throat discomfort without another established explanation?
+•	No. 
+•	Yes. 
+•	Unsure. 
+2. Have you experienced persistent difficulty or pain when swallowing?
+•	No. 
+•	Yes. 
+•	Unsure. 
+3. Have you noticed a persistent lump or swelling in the neck?
+•	No. 
+•	Yes. 
+•	Unsure. 
+4. Have you experienced persistent hoarseness or another unexplained change in your voice?
+•	No. 
+•	Yes. 
+•	Unsure. 
+5. Have you experienced persistent unexplained pain in one ear?
+•	No. 
+•	Yes. 
+•	Unsure. 
+6. Have you developed persistent difficulty opening your mouth or moving your tongue?
+•	No. 
+•	Yes. 
+•	Unsure. 
+7. Have you experienced unexplained bleeding from the mouth or throat, or coughed up blood?
+•	No. 
+•	Yes. 
+•	Unsure. 
+These cover the principal symptom domains without reproducing the oral-cancer module. Tobacco, alcohol and HPV remain shared upstream variables. 
+2. HPV subtype refinement
+Your dedicated HPV module already asks whether high-risk HPV was detected.
+Therefore, only one additional variable is justified here:
+8. If HPV was previously detected, was HPV-16 specifically identified?
+•	Yes. 
+•	No. 
+•	HPV detected, type not known. 
+•	Unsure. 
+•	Not applicable. 
+This is particularly relevant to the oropharyngeal component of head & neck cancer. 
+________________________________________
+4. LUNG CANCER
+The lung module should automatically consume:
+•	Tobacco/nicotine status. 
+•	Product type. 
+•	Quantity. 
+•	Duration. 
+•	Cumulative exposure / pack-year-equivalent variables where calculable. 
+•	Second-hand smoke exposure. 
+•	Occupational exposure. 
+•	Household biomass exposure. 
+•	Previous radiation. 
+•	Family history. 
+•	Chronic respiratory disease. 
+•	Previous cancer. 
+•	Relevant uploaded investigations. 
+Smoking quantity & duration are particularly important because lung-cancer risk is strongly related to cumulative exposure. 
+1. Additional environmental exposure
+1. Have you ever had substantial long-term exposure to radon at home or work?*
+•	No known exposure. 
+•	Possible exposure. 
+•	Confirmed exposure. 
+•	Unsure. 
+Radon is a recognized lung-cancer carcinogen. 
+2. Respiratory red flags
+2. Do you currently have a persistent or progressively worsening cough?
+•	No. 
+•	Yes. 
+•	Unsure. 
+3. Have you ever coughed up blood without another established explanation?
+•	No. 
+•	Yes. 
+•	Unsure. 
+4. Do you have persistent or unexplained shortness of breath?*
+•	No. 
+•	Yes. 
+•	Unsure. 
+5. Do you have persistent chest pain or discomfort without another established explanation?*
+•	No. 
+•	Yes. 
+•	Unsure. 
+6. Have you developed persistent unexplained hoarseness or voice change?
+•	No. 
+•	Yes. 
+•	Unsure. 
+7. Have you experienced unexplained weight loss or persistent loss of appetite?
+•	No. 
+•	Yes. 
+•	Unsure. 
+These are red-flag variables. They should not be interpreted as proof of lung cancer. 
+________________________________________
+5. LIVER CANCER
+This is where your previous questionnaire had too much repetition.
+Your existing chronic-disease module already captures:
+•	Chronic liver disease. 
+•	Cirrhosis. 
+•	HBV. 
+•	HCV. 
+•	Fatty liver/MASLD. 
+•	Alcohol. 
+•	Diabetes. 
+•	Obesity. 
+•	Previous cancer.*
+•	Genetic conditions. 
+Therefore, do not ask these again.
+These are highly relevant because chronic HBV/HCV infection and cirrhosis are central risk contexts for hepatocellular carcinoma. 
+1. Aflatoxin exposure*
+1. Have you had repeated or substantial exposure to foods suspected or known to be contaminated with aflatoxin, particularly improperly stored grains, maize, peanuts/groundnuts, or other susceptible food products?
+•	No known exposure. 
+•	Possible exposure. 
+•	Repeated/known exposure. 
+•	Unsure. 
+2. Inherited liver disease*
+2. Have you ever been diagnosed with hereditary haemochromatosis or another inherited liver disorder?
+•	No. 
+•	Yes. 
+•	Unsure. 
+3. Liver red flags
+3. Have you developed unexplained yellowing of the skin or whites of the eyes?
+•	No. 
+•	Yes. 
+•	Unsure. 
+4. Have you developed persistent abdominal swelling or a feeling of increasing abdominal fullness?
+•	No. 
+•	Yes. 
+•	Unsure. 
+5. Have you experienced persistent pain or discomfort in the upper-right abdomen?*
+•	No. 
+•	Yes. 
+•	Unsure. 
+6. Have you experienced unexplained weight loss, persistent loss of appetite, or unusual early fullness after eating?
+•	No. 
+•	Yes. 
+•	Unsure. 
+7. Have you noticed unusually dark urine or persistently pale/clay-coloured stools without another established explanation?
+•	No. 
+•	Yes. 
+•	Unsure. 
+These symptoms are appropriately treated as red flags rather than cancer-specific findings. 
+________________________________________
+6. ENDOMETRIAL CANCER
+This module can be made very small because your existing female module already captures almost everything needed:
+•	Menarche. 
+•	Age at menarche. 
+•	Menstrual regularity. 
+•	Pregnancy. 
+•	Menopause. 
+•	Age at menopause. 
+•	Abnormal/intermenstrual bleeding. 
+•	Postmenopausal bleeding. 
+•	Lactation. 
+•	BMI. 
+•	Diabetes. 
+•	Hypertension. 
+•	Family history. 
+•	Lynch syndrome. 
+•	Tamoxifen. 
+•	Current medication. 
+These are already valuable inputs to the endometrial risk engine. Obesity, diabetes, PCOS, endometrial hyperplasia, late menopause, nulliparity, tamoxifen and Lynch syndrome are established risk contexts. 
+Therefore, only add what is genuinely absent.
+1. PCOS
+1. Have you ever been diagnosed with polycystic ovary syndrome (PCOS)?
+•	No. 
+•	Yes. 
+•	Unsure. 
+2. Endometrial hyperplasia
+2. Have you ever been diagnosed with endometrial hyperplasia?
+•	No. 
+•	Yes. 
+•	Unsure. 
+3. Menopausal hormone therapy
+Your current medication module does not adequately establish this exposure.
+3. Have you ever used menopausal hormone therapy?
+•	No. 
+•	Yes — currently. 
+•	Yes — previously. 
+•	Unsure. 
+•	Not applicable. 
+If yes:
+3a. What type of menopausal hormone therapy were you prescribed?
+•	Estrogen alone. 
+•	Estrogen plus progestogen. 
+•	Type unknown. 
+•	Unsure. 
+4. Abnormal uterine bleeding
+Do not ask this again because your existing gynaecological module already asks:
+•	Intermenstrual bleeding. 
+•	Postmenopausal bleeding. 
+•	Blood mixed with discharge. 
+The cancer engine should simply consume those variables.
+This is particularly important because postmenopausal bleeding should trigger a clinical evaluation pathway rather than simply adding a numerical risk score. 
+________________________________________
+7. SPLENIC & HEMATOLOGIC MALIGNANCY PATHWAY
+I strongly recommend retaining the name:
+Splenic & Hematologic Malignancy Pathway
+rather than "Spleen Cancer Risk."
+That is scientifically safer because primary splenic malignancies are uncommon, while clinically important malignant splenic involvement is frequently related to hematologic malignancy or secondary disease.
+1. Hematologic malignancy
+1. Have you ever been diagnosed with a blood, bone-marrow, lymphatic, or hematologic malignancy?
+•	No. 
+•	Yes. 
+•	Unsure. 
+If yes:
+1a. What type were you diagnosed with?
+•	Hodgkin lymphoma. 
+•	Non-Hodgkin lymphoma. 
+•	Leukemia. 
+•	Multiple myeloma. 
+•	Myeloproliferative neoplasm. 
+•	Other hematologic malignancy. 
+•	Unsure. 
+2. Splenic abnormality
+2. Have you ever been told that your spleen is enlarged?
+•	No. 
+•	Yes. 
+•	Unsure. 
+3. Has an imaging study ever shown a splenic mass, lesion, cyst, or other unexplained splenic abnormality?
+•	No. 
+•	Yes. 
+•	Unsure. 
+3. Current red flags
+4. Do you have persistent discomfort, fullness, or pressure in the upper-left abdomen?
+•	No. 
+•	Yes. 
+•	Unsure. 
+5. Have you experienced persistent unexplained fever?
+•	No. 
+•	Yes. 
+•	Unsure. 
+6. Have you experienced drenching night sweats without another established explanation?
+•	No. 
+•	Yes. 
+•	Unsure. 
+7. Have you experienced unexplained weight loss?
+•	No. 
+•	Yes. 
+•	Unsure. 
+8. Have you experienced persistent unexplained fatigue or weakness?
+•	No. 
+•	Yes. 
+•	Unsure. 
+4. Existing investigation
+9. Do you have a previous blood count, peripheral smear, ultrasound, CT, MRI, PET/PET-CT, or pathology report showing an unexplained abnormality involving the spleen, blood, bone marrow, or lymphatic system?
+•	No. 
+•	Yes. 
+•	Unsure.

@@ -1,0 +1,14 @@
+ONCOGUIDE integrated presentation build 1.3.8
+Local URL: http://localhost:8900
+
+Build status: Local-only demonstration software. Clinical validation is incomplete; not for clinical decision-making or use with real patient data.
+
+Scoring/routing corrections: site-specific evidence required for objective findings; normal/negative/benign investigation descriptions are not treated as suspicious; unknown prior abnormalities do not receive generic lesion points; family-history scoring is site-relevant; breast and chest-wall lump locations are distinguished; haematologic routing checks bleeding subtype/site; protective-food frequency mapping corrected; repeated question IDs are claimed once per pathway; score-category bands and score-tier investigation advice removed; total scores withheld when weighted-domain coverage is incomplete.
+
+Verification performed: JavaScript syntax check; 73 rule-engine regression tests; package file checks; Python unit tests; Python compile check. These tests assess software logic, not clinical accuracy or outcomes.
+
+Build 1.3.8 user-requested questionnaire updates: removed meal-by-meal sections and Lynch question; added conditional spleen gateway, optional menstrual-pad flow, leftover-food and cooking-method items; moved HPV vaccination to initial gender/anatomy-appropriate sections; gated prostate/semen questions; removed duplicate stool/swallowing prompts; removed liver hereditary question; added breast self-examination guide and image.
+
+Scoring consistency check: all 18 adult pathway scoring-domain ceilings sum to 100; all scoring item IDs resolve to questionnaire IDs. This verifies software consistency only, not clinical validity of weights.
+
+Patch notes (cooking-fuel + DOB entry): Added D013 household cooking fuel/stove selection, with local-language labels for LPG, PNG, electric/induction, biogas, traditional chulha (firewood/crop residue/dung cakes), kerosene, coal/charcoal, shared cooking facility and other. D013 is contextual and is not assigned independent cancer-risk points. DOB accepts digits-only entry and formats DD/MM/YYYY automatically (e.g. 25011996 → 25/01/1996). Regression checks added for both changes.

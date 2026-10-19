@@ -1,0 +1,274 @@
+{
+  "version": "ONCOGUIDE-PATHWAYS-1.3.8",
+  "status": "Integrated rule-based presentation pathways with requested questionnaire updates; scoring remains a non-validated prototype requiring clinical review.",
+  "pathways": [
+    {
+      "id": "thyroid",
+      "name": "Thyroid",
+      "next_step": "Clinical review of neck/thyroid findings; imaging/labs are clinician-directed.",
+      "investigation_guidance": "TSH and thyroid/neck ultrasound for a relevant nodule or neck finding; calcitonin only when medullary thyroid cancer is specifically suspected.",
+      "marker_guidance": {
+        "tumour_markers": "Serum calcitonin only when medullary thyroid carcinoma is specifically suspected; serum thyroglobulin is not a routine initial diagnostic test for a new thyroid nodule.",
+        "pathology_ihc": "If tissue is obtained, the pathologist may select thyroglobulin, TTF-1 and PAX8 for differentiated thyroid lineage; calcitonin and CEA for a suspected medullary tumour. Selection depends on morphology and differential diagnosis.",
+        "molecular": "Molecular testing only when indicated by confirmed histology and specialist management decisions."
+      }
+    },
+    {
+      "id": "oral_cavity",
+      "name": "Oral cavity",
+      "next_step": "Persistent oral lesions need clinical examination; biopsy only if clinically indicated.",
+      "investigation_guidance": "Direct oral examination by a qualified clinician; biopsy of a suspicious lesion if clinically indicated. No routine diagnostic blood tumour marker.",
+      "marker_guidance": {
+        "tumour_markers": "No routine serum tumour marker for initial diagnosis.",
+        "pathology_ihc": "Histopathology of a clinically suspicious lesion. If needed for differential diagnosis, p40/p63 and CK5/6 may support squamous differentiation; p16/HPV testing is context-specific (especially oropharyngeal disease) and should not be applied indiscriminately to all oral lesions.",
+        "molecular": "No routine molecular panel before a tissue diagnosis; specialist-directed testing if confirmed disease warrants it."
+      }
+    },
+    {
+      "id": "head_neck",
+      "name": "Head and neck",
+      "next_step": "Clinical examination; route by anatomical site and associated symptoms.",
+      "investigation_guidance": "ENT/head-and-neck examination; targeted endoscopy and imaging as clinically indicated; biopsy of a suspicious lesion or node.",
+      "marker_guidance": {
+        "tumour_markers": "No routine serum tumour marker for initial diagnosis.",
+        "pathology_ihc": "For a suspicious biopsy, pathologist-selected squamous markers may include p40/p63 and CK5/6. p16/HPV testing is site- and context-dependent; other markers depend on the differential diagnosis.",
+        "molecular": "Site-, histology- and stage-specific testing only after diagnosis and specialist review."
+      }
+    },
+    {
+      "id": "lung",
+      "name": "Lung",
+      "next_step": "Respiratory assessment; screening eligibility is separate from symptomatic assessment.",
+      "investigation_guidance": "Chest X-ray may be an initial test in appropriate symptomatic patients; diagnostic chest CT and tissue sampling only if clinically indicated. CBC is supportive, not diagnostic.",
+      "marker_guidance": {
+        "tumour_markers": "Serum tumour markers are not recommended as a general screening or stand-alone diagnostic panel for suspected lung cancer.",
+        "pathology_ihc": "On adequate tissue, a pathologist may use TTF-1/Napsin A to support lung adenocarcinoma and p40/CK5/6 to support squamous differentiation; other markers are selected according to morphology and differential diagnosis.",
+        "molecular": "For confirmed non-small-cell lung cancer, predictive molecular testing and PD-L1 may be indicated according to histology, stage and current local guidance; do not infer these tests from the index alone."
+      }
+    },
+    {
+      "id": "liver",
+      "name": "Liver",
+      "next_step": "Liver-focused clinical assessment or existing clinician-directed surveillance.",
+      "investigation_guidance": "Liver tests and bilirubin, appropriate HBV/HCV testing, and liver ultrasound or other diagnostic imaging when indicated; AFP is an adjunct only in selected settings.",
+      "marker_guidance": {
+        "tumour_markers": "AFP may be an adjunct in selected patients with a suspicious liver lesion or established surveillance indication; it is not a stand-alone diagnostic test.",
+        "pathology_ihc": "If biopsy is clinically indicated, the pathologist may consider arginase-1, HepPar-1 and glypican-3 for hepatocellular differentiation, with additional markers chosen for the differential diagnosis.",
+        "molecular": "Not a routine first-line test; guided by confirmed histology and specialist assessment."
+      }
+    },
+    {
+      "id": "endometrial",
+      "name": "Endometrial",
+      "next_step": "Prompt clinical assessment of unexplained abnormal uterine or postmenopausal bleeding.",
+      "investigation_guidance": "Clinical assessment of abnormal bleeding; transvaginal ultrasound and/or endometrial sampling as indicated. CBC may assess blood loss.",
+      "marker_guidance": {
+        "tumour_markers": "No serum tumour marker is recommended to screen for or diagnose endometrial cancer.",
+        "pathology_ihc": "Endometrial sampling/histopathology when indicated. After diagnosis, MMR proteins (MLH1, PMS2, MSH2, MSH6) and p53 may be assessed; ER/PR or other markers are selected according to histotype and clinical pathway.",
+        "molecular": "Molecular classification or hereditary-risk evaluation should follow pathology findings and clinician/genetics review."
+      }
+    },
+    {
+      "id": "splenic_hematologic",
+      "name": "Splenic and hematologic",
+      "next_step": "Clinical review of unexplained splenic/hematologic findings; interpret blood tests in context.",
+      "investigation_guidance": "CBC with differential and peripheral smear; further testing guided by abnormalities, potentially including flow cytometry, imaging or bone-marrow examination.",
+      "marker_guidance": {
+        "tumour_markers": "No single serum tumour marker diagnoses haematologic malignancy; LDH may be used as a contextual laboratory measure when clinically indicated, not as a diagnostic marker alone.",
+        "pathology_ihc": "CBC with differential, smear and clinician-directed flow cytometry are often more relevant first steps. If tissue/marrow is sampled, the haematopathologist selects lineage markers (for example CD45, CD20/PAX5, CD3, TdT, CD34 and Ki-67) based on morphology and differential diagnosis.",
+        "molecular": "Cytogenetic/molecular tests are subtype-specific and should be selected by the haematology/pathology team after abnormal findings."
+      }
+    },
+    {
+      "id": "colorectal",
+      "name": "Colorectal",
+      "next_step": "Clinical assessment; the clinician determines appropriate bowel investigations.",
+      "investigation_guidance": "CBC and ferritin/iron studies if anaemia is suspected; FIT or colonoscopy according to symptoms and local guidance. Concerning presentations may require direct diagnostic assessment.",
+      "marker_guidance": {
+        "tumour_markers": "CEA is generally used as a baseline/monitoring marker after a colorectal cancer diagnosis, not as a screening test or stand-alone diagnostic test.",
+        "pathology_ihc": "For confirmed carcinoma, mismatch-repair proteins (MLH1, PMS2, MSH2, MSH6) are commonly considered. CK20, CDX2 and SATB2 may help with site-of-origin differential diagnosis when needed.",
+        "molecular": "MSI/MMR and, in appropriate confirmed disease settings, RAS/BRAF or other predictive markers are specialist-directed and depend on stage and treatment planning."
+      }
+    },
+    {
+      "id": "cervical",
+      "name": "Cervical",
+      "next_step": "Follow result-specific cervical guidelines; HPV positivity is not equivalent to cancer.",
+      "investigation_guidance": "Appropriate cervical examination, HPV testing/cytology in context, and colposcopy/biopsy for indicated abnormal results or suspicious findings.",
+      "marker_guidance": {
+        "tumour_markers": "No routine serum tumour marker for cervical screening or initial diagnosis. Use HPV/cytology pathways and tissue diagnosis as indicated.",
+        "pathology_ihc": "For a suspicious cervical lesion, histology is primary; p16 may support HPV-associated high-grade lesions in the appropriate context. Further markers (for example p40/p63 or PAX8/CK7) depend on squamous versus glandular morphology and differential diagnosis.",
+        "molecular": "HPV testing and any additional molecular work-up should follow age-, result- and guideline-specific cervical pathways."
+      }
+    },
+    {
+      "id": "stomach",
+      "name": "Stomach",
+      "next_step": "Clinical assessment; vomiting blood or coffee-ground material needs urgent assessment.",
+      "investigation_guidance": "CBC and iron studies where indicated; upper-GI endoscopy with biopsy when symptoms and clinical assessment warrant it.",
+      "marker_guidance": {
+        "tumour_markers": "No serum tumour marker is suitable as a stand-alone diagnostic test for suspected gastric cancer.",
+        "pathology_ihc": "Endoscopic biopsy and histopathology are central. For confirmed adenocarcinoma, HER2, MMR/MSI and PD-L1 may be considered according to stage and treatment context; CK7/CK20/CDX2 may be used selectively for differential diagnosis.",
+        "molecular": "Predictive biomarker testing is considered after histological confirmation and specialist review, not from a score alone."
+      }
+    },
+    {
+      "id": "oesophageal",
+      "name": "Oesophageal",
+      "next_step": "Clinical assessment for dysphagia; inability to swallow saliva/liquids needs urgent assessment.",
+      "investigation_guidance": "Upper-GI endoscopy with biopsy for concerning dysphagia or other appropriate indications; do not delay assessment for a score.",
+      "marker_guidance": {
+        "tumour_markers": "No routine serum tumour marker for initial diagnosis.",
+        "pathology_ihc": "Endoscopic biopsy/histopathology. p40/p63/CK5/6 may support squamous differentiation; CK7/CDX2 may help in selected adenocarcinoma differentials. HER2, MMR/MSI or PD-L1 testing may be relevant in selected confirmed cancers depending on histology, stage and local guidance.",
+        "molecular": "Only after confirmed histology and specialist treatment-planning review."
+      }
+    },
+    {
+      "id": "leukaemia",
+      "name": "Leukaemia",
+      "next_step": "Clinical review and interpretation of blood counts/smear; symptoms alone are nonspecific.",
+      "investigation_guidance": "CBC with differential and peripheral smear; urgent clinical review for concerning abnormalities. Flow cytometry and bone-marrow studies are follow-up tests when indicated.",
+      "marker_guidance": {
+        "tumour_markers": "Serum tumour-marker panels are not a substitute for CBC, smear and haematology assessment.",
+        "pathology_ihc": "Flow cytometry and bone-marrow morphology are clinician-directed. Immunophenotyping may include lineage markers such as CD34, TdT, MPO, CD13/CD33/CD117, B-lineage markers (for example CD19/CD10/CD79a) or T-lineage CD3, selected by a haematopathologist.",
+        "molecular": "Cytogenetic and molecular tests depend on the suspected/confirmed leukaemia subtype and should be ordered through the haematology pathway."
+      }
+    },
+    {
+      "id": "ovarian",
+      "name": "Ovarian",
+      "next_step": "Clinical assessment for persistent/frequent combined abdominal or pelvic symptoms.",
+      "investigation_guidance": "Pelvic/transvaginal ultrasound and CA-125 in appropriate clinical contexts. Neither a normal CA-125 nor a single symptom reliably excludes disease.",
+      "marker_guidance": {
+        "tumour_markers": "CA-125 may be appropriate in selected symptomatic or imaging contexts but is not a population screening test and a normal result does not exclude malignancy. AFP, beta-hCG and LDH may be considered for a suspected germ-cell tumour in the relevant age/clinical context.",
+        "pathology_ihc": "After tissue diagnosis, a pathologist may select PAX8, WT1, ER/PR and p53 for epithelial tumour classification; SALL4, OCT3/4, PLAP, AFP or beta-hCG may be relevant to a germ-cell differential. This is not a blanket panel.",
+        "molecular": "Additional hereditary or tumour testing follows histology, family history and specialist/genetics guidance."
+      }
+    },
+    {
+      "id": "non_hodgkin_lymphoma",
+      "name": "Non-Hodgkin lymphoma",
+      "next_step": "Clinical assessment for persistent unexplained lymph-node enlargement or concerning combinations.",
+      "investigation_guidance": "CBC and LDH where indicated, and assessment of persistent unexplained lymphadenopathy; tissue biopsy is required for diagnosis.",
+      "marker_guidance": {
+        "tumour_markers": "LDH may help with clinical assessment/prognosis in context but does not diagnose lymphoma; no single serum tumour marker is diagnostic.",
+        "pathology_ihc": "Excisional/core tissue biopsy with histopathology is central. A pathologist-directed panel may include CD45, CD20/PAX5, CD3 and Ki-67, with subtype-specific markers such as CD10, BCL2, BCL6, MUM1 or cyclin D1 as indicated by morphology.",
+        "molecular": "Subtype-specific flow cytometry, cytogenetic or molecular testing is selected by haematopathology after tissue review."
+      }
+    },
+    {
+      "id": "prostate",
+      "name": "Prostate",
+      "next_step": "Clinical urinary/prostate assessment; urinary symptoms often have benign causes.",
+      "investigation_guidance": "PSA only after appropriate clinical discussion; urinalysis and other urinary assessment where indicated. PSA alone cannot diagnose prostate cancer.",
+      "marker_guidance": {
+        "tumour_markers": "PSA only after age-, risk- and preference-appropriate discussion with a clinician; PSA alone cannot diagnose prostate cancer and may be raised by benign conditions.",
+        "pathology_ihc": "If biopsy is indicated, histopathology is primary. For difficult differentials, a pathologist may use prostate-lineage markers such as NKX3.1, PSA or PSAP and basal-cell markers such as p63/HMWCK; AMACR may be used in context.",
+        "molecular": "Additional genomic testing is considered only for selected confirmed cases under specialist guidance."
+      }
+    },
+    {
+      "id": "hypopharyngeal",
+      "name": "Hypopharyngeal",
+      "next_step": "Clinical head-and-neck assessment for persistent throat-level symptoms.",
+      "investigation_guidance": "ENT assessment, endoscopic examination and biopsy when indicated; imaging based on clinical findings.",
+      "marker_guidance": {
+        "tumour_markers": "No routine serum tumour marker for initial diagnosis.",
+        "pathology_ihc": "Biopsy and histopathology. For suspected squamous carcinoma, p40/p63 and CK5/6 may support lineage; p16/HPV testing is site/context dependent and not a universal hypopharyngeal marker panel.",
+        "molecular": "Site- and stage-specific testing only after tissue diagnosis and specialist review."
+      }
+    },
+    {
+      "id": "laryngeal",
+      "name": "Laryngeal",
+      "next_step": "Clinical assessment for persistent voice change; emergency guidance overrides this pathway.",
+      "investigation_guidance": "Laryngoscopy for persistent unexplained hoarseness when indicated; biopsy of a suspicious lesion.",
+      "marker_guidance": {
+        "tumour_markers": "No routine serum tumour marker for initial diagnosis.",
+        "pathology_ihc": "Biopsy/histopathology; p40/p63 and CK5/6 may support squamous differentiation when required. Additional IHC depends on morphology and differential diagnosis.",
+        "molecular": "No blanket molecular panel; specialist-directed testing only when clinically indicated after diagnosis."
+      }
+    },
+    {
+      "id": "breast",
+      "name": "Breast",
+      "next_step": "Clinical breast assessment and age/presentation-appropriate imaging if indicated.",
+      "investigation_guidance": "Clinical breast examination and diagnostic ultrasound and/or mammography according to age and presentation; image-guided core biopsy if indicated. No routine serum tumour marker for initial diagnosis.",
+      "marker_guidance": {
+        "tumour_markers": "No routine serum tumour marker for initial diagnosis of a breast lump or suspected primary breast cancer.",
+        "pathology_ihc": "If invasive breast cancer is confirmed, ER, PR and HER2 testing are key predictive biomarkers; Ki-67 may be used according to local pathology practice. The panel and interpretation must follow current pathology standards. HER2 IHC-equivocal results may require in-situ hybridisation under the applicable guideline.",
+        "molecular": "Additional genomic assays are selected for specific confirmed cases by the oncology team; they are not generated by this risk index."
+      }
+    },
+    {
+      "id": "paediatric_assessment",
+      "name": "Paediatric assessment",
+      "next_step": "Any concerning paediatric finding requires prompt assessment by an appropriate clinician; no paediatric cancer probability is calculated.",
+      "marker_guidance": {
+        "tumour_markers": "No universal paediatric tumour-marker panel. Tests depend on the suspected tumour type and paediatric specialist assessment.",
+        "pathology_ihc": "If tissue is obtained, the paediatric pathologist selects IHC based on the organ, imaging, morphology and differential diagnosis; avoid applying a broad panel indiscriminately.",
+        "molecular": "Age- and tumour-specific molecular testing is directed by a paediatric oncology/pathology team after appropriate assessment."
+      }
+    },
+    {
+      "id": "paediatric_cns",
+      "name": "Paediatric CNS / neurological assessment",
+      "next_step": "Prompt assessment by a paediatric clinician; neurological red flags require urgent evaluation. No paediatric tumour probability is calculated.",
+      "marker_guidance": {
+        "tumour_markers": "No routine serum tumour-marker panel for a new paediatric CNS warning symptom; imaging and specialist assessment take priority.",
+        "pathology_ihc": "If tissue diagnosis is required, a neuropathologist may select markers such as GFAP, OLIG2, synaptophysin, INI1/SMARCB1 or BRG1/SMARCA4 depending on morphology and differential diagnosis.",
+        "molecular": "CNS tumour molecular classification is histology-specific and specialist-directed; do not delay urgent assessment for biomarker testing."
+      }
+    },
+    {
+      "id": "paediatric_ophthalmic",
+      "name": "Paediatric ocular / retinoblastoma warning assessment",
+      "next_step": "Prompt assessment by an eye-care clinician/paediatric service for a new white pupil, squint or unexplained ocular change.",
+      "marker_guidance": {
+        "tumour_markers": "No routine serum tumour marker for a white pupil or suspected retinoblastoma; prompt specialist eye assessment is the priority.",
+        "pathology_ihc": "Retinoblastoma is often assessed clinically; tissue pathology and IHC are situation-specific (for example after enucleation) and directed by the specialist pathologist.",
+        "molecular": "RB1 genetic counselling/testing may be appropriate in selected suspected/confirmed retinoblastoma cases under specialist guidance."
+      }
+    },
+    {
+      "id": "paediatric_abdominal",
+      "name": "Paediatric abdominal / renal tumour warning assessment",
+      "next_step": "Prompt paediatric clinical assessment for a new abdominal/flank mass or persistent swelling; imaging decisions are clinician-directed.",
+      "marker_guidance": {
+        "tumour_markers": "Only tumour-specific tests in the appropriate clinical differential: AFP may be relevant for hepatoblastoma; urine/plasma catecholamine metabolites may be relevant for neuroblastoma. These are not a universal paediatric abdominal panel.",
+        "pathology_ihc": "If tissue is obtained, pathologist-selected examples include WT1/PAX8 for a Wilms tumour differential, PHOX2B/synaptophysin/chromogranin for neuroblastoma, or glypican-3/AFP for hepatoblastoma, depending on morphology.",
+        "molecular": "Tumour-specific molecular studies are selected after specialist imaging/pathology review."
+      }
+    },
+    {
+      "id": "paediatric_bone_soft_tissue",
+      "name": "Paediatric bone and soft-tissue warning assessment",
+      "next_step": "Prompt clinical assessment for persistent unexplained bone pain, limp or enlarging soft-tissue swelling.",
+      "marker_guidance": {
+        "tumour_markers": "No universal serum tumour-marker panel; laboratory tests depend on the differential diagnosis and clinical assessment.",
+        "pathology_ihc": "After specialist-directed biopsy, examples selected by morphology may include SATB2 for osteoblastic differentiation, desmin/myogenin/MyoD1 for rhabdomyoblastic differentiation, or CD99/NKX2.2 in a Ewing sarcoma differential.",
+        "molecular": "Fusion/genetic testing (for example EWSR1-related testing when Ewing sarcoma is suspected) is specialist- and pathology-directed."
+      }
+    },
+    {
+      "id": "paediatric_germ_cell",
+      "name": "Paediatric / adolescent testicular or germ-cell warning assessment",
+      "next_step": "Prompt clinical assessment for a new testicular lump or swelling. Sudden severe testicular pain is an emergency.",
+      "marker_guidance": {
+        "tumour_markers": "AFP, beta-hCG and LDH may be used in selected suspected germ-cell tumour contexts; interpretation depends on age, tumour site and clinical situation.",
+        "pathology_ihc": "For a tissue diagnosis, the pathologist may select SALL4, OCT3/4, PLAP, AFP or beta-hCG according to suspected germ-cell subtype and morphology.",
+        "molecular": "Additional testing is subtype- and specialist-directed."
+      }
+    },
+    {
+      "id": "paediatric_hematologic",
+      "name": "Paediatric hematologic warning assessment",
+      "next_step": "Prompt paediatric clinician review for relevant blood-count abnormalities or concerning symptom combinations.",
+      "marker_guidance": {
+        "tumour_markers": "No single serum tumour marker diagnoses childhood leukaemia/lymphoma; CBC, smear, clinical assessment and flow cytometry are more relevant when indicated.",
+        "pathology_ihc": "Flow cytometry and marrow/tissue pathology are directed by paediatric haematology. Markers may include CD34, TdT, MPO, CD19/CD10/CD79a, CD3 or CD20/PAX5 according to lineage and differential diagnosis.",
+        "molecular": "Genetic/cytogenetic work-up depends on the suspected/confirmed haematologic subtype and is specialist-directed."
+      }
+    }
+  ]
+}
